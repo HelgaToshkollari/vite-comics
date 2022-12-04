@@ -87,10 +87,20 @@ export default {
     list-style: none;
     display: flex;
 
+    & li:hover{
+        border-bottom: 5px solid $my-bgc-color-blue;
+    }
+
     a{
         color: $my-bgc-color-dark;
         text-decoration: none;
         padding: 10px;
+
+        &:hover{
+            color: $my-bgc-color-blue;
+
+        }
+        
          
     }
 }

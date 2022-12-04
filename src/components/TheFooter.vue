@@ -5,7 +5,7 @@
                 <div class=" col-sm-2 text-white " v-for=" ftLink in footerArray">
                     <div class="footer-link-list">
                         <h3>{{ ftLink.title}}</h3>
-                        <ul class="list-unstyled ">
+                        <ul class="list-unstyled text-secondary ">
                             <li v-for="linkName in ftLink.footerLinks "> {{linkName}} </li>
                         </ul>
                     </div>
@@ -52,7 +52,6 @@ export default {
 .my-bgc-footer-img{
     background-image: url("./img/footer-bg.jpg");
     object-fit: cover;
-    width: 100%;   
 }
 .footer-link-list{
     padding: 1rem;

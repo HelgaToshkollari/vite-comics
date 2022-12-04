@@ -1,6 +1,6 @@
 <template lang="">
     <div class="my-bgc-footer">
-        <h1 class="text-white m-0"> footer </h1>
+        <h1 class="text-white"> banner </h1>
     </div>
   
 </template>

@@ -1,8 +1,6 @@
 <template>
-    <div class="my-bgc-white">
-        <h1>
-            nav-bar
-        </h1>
+    <div class="my-bgc-dark">
+        <h1 class="text-white m-0"> Content goes here </h1>
     </div>
 </template>
 <script>
@@ -12,8 +10,8 @@ export default {
 </script>
 <style scoped lang="scss">
 @use "../styles/partials/variables"  as *;
-.my-bgc-white{
-    background-color:$my-bgc-color-header;
+.my-bgc-dark{
+    background-color:$my-bgc-color-dark;
     
 }
     

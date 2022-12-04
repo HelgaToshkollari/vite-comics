@@ -1,7 +1,7 @@
 <template>
     <div class="container my-bgc-white">
-        <div class="my-nav-bar">
-            <div class="logo-dc">
+        <div class="my-nav-bar py-3">
+            <div class="logo-dc ">
                 <img src="/img/dc-logo.png" alt="">
             </div>
             <div class="nav-bar-links">
@@ -79,6 +79,9 @@ export default {
     justify-content: space-between;
     align-items: center;
 
+}
+.logo-dc img{
+    width: 80px;
 }
 .links{
     list-style: none;

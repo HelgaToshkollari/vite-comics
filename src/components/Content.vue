@@ -1,6 +1,8 @@
 <template>
-    <div class="my-bgc-dark">
-        <h1 class="text-white m-0"> Content goes here </h1>
+    <div class=" my-bgc-dark">
+        <div class="container">
+            <h1 class="text-white m-0 py-4"> Content goes here </h1>
+        </div>
     </div>
 </template>
 <script>

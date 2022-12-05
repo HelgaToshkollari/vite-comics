@@ -1,9 +1,11 @@
 <template >
-    <div class="row row-cols-1 row-cols-md-4 g-4">
-        <div class="col" v-for="(comicItem, i) in comicsList" :key="i">
+    <div class="container d-flex flex-wrap py-4">
+        <div class="my-item" v-for="(comicItem, i) in comicsList" :key="i">     
             <ComicItem :comic="comicItem"></ComicItem>
         </div>
-        
+    </div>
+    <div class="text-center ">
+        <button class="btn btn-primary px-4">LOAD MORE</button>
     </div>
 </template>
 <script>
@@ -91,6 +93,14 @@ export default {
     
 }
 </script>
-<style lang="">
+<style lang="scss">
+@use "../styles/partials/variables"  as *;
+
+.my-item{
+    display: flex;
+    width: calc(100% / 6);
+    padding: 0 1rem;
+}
+
     
 </style>

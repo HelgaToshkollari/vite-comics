@@ -11,8 +11,10 @@ import Content from './components/Content.vue';
 import Banner1 from './components/Banner1.vue';
 import TheFooter from './components/TheFooter.vue';
 import Banner2 from './components/Banner2.vue';
+import ComicList from './components/ComicList.vue';
+
 export default{
-  components: {TheHeader, Content, Banner1, TheFooter, Banner2}
+  components: {TheHeader, Content, Banner1, TheFooter, Banner2 , ComicList},
 
 }
 

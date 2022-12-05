@@ -1,12 +1,19 @@
 <template>
     <div class=" my-bgc-dark">
-        <div class="container">
-            <h1 class="text-white m-0 py-4"> Content goes here </h1>
+        <div class="container py-4">
+            <ComicList></ComicList>
         </div>
     </div>
 </template>
 <script>
+import ComicList from './ComicList.vue';
 export default {
+    components:{ComicList},
+    data() {
+        return {
+            
+        }
+    },
     
 }
 </script>
